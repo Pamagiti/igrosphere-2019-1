@@ -8,6 +8,7 @@ def read_file(file_path):
 
 def filter_lines(regexp, lines):
     result = []
+
     fot line in lines
         while line != " ":
             if re.match(regexp, line)
