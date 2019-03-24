@@ -14,4 +14,5 @@ def filter_lines(regexp, lines):
 filename = "coverage-error.log"
 regexp = r"\[\d\d\d\d\.\d\d\.\d\d \d\d:\d\d:\d\d\].+"
 lines = read_file(filename)
+print("Andrey.Shevchenko")
 print(filter_lines(regexp, lines))
