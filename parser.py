@@ -23,3 +23,4 @@ if __name__ == "__main__":
     print("Author is d.galamaga")
     print("Author is andrey.shevchenko")
     print(filter_lines(regexp, lines))
+    print(len(filter_lines(regexp, lines)))
