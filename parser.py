@@ -21,4 +21,5 @@ if __name__ == "__main__":
     regexp = r"\[\d\d\d\d\.\d\d\.\d\d \d\d:\d\d:\d\d\].+"
     lines = read_file(filename)
     print("Author is d.galamaga")
+    print("Author is andrey.shevchenko")
     print(filter_lines(regexp, lines))
